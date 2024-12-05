@@ -19,14 +19,14 @@ public class Problema03 {
                 
                 System.out.printf("%s", "*");
             }
-            System.out.println("\n");
+            System.out.println();
         }
         for (int i = 5; i >= 1; i--) {
             for (int contador = 1; contador <= i; contador++) {
                 
                 System.out.printf("%s", "*");
             }
-            System.out.println("\n");
+            System.out.println();
         }  
     }
     
