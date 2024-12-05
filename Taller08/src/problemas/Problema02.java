@@ -17,12 +17,13 @@ public class Problema02 {
         int contador = 0;
         for(double f = 20; f <= 100; f+=4){
             double c;
-            contador += +1;
+            
             c = ((5.0/9.0)*(f - 32));
             System.out.printf("Operacion(%d)Fahrenheit: %.2f ===> Celcius: %.2f\n",
                     contador,
                     f,
                     c);
+            contador += +1;
              
          }
     }
